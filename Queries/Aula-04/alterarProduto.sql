@@ -19,3 +19,9 @@ WHERE PRODUTO = '544931';
 
 UPDATE tbproduto SET EMBALAGEM = 'Garrafa'
 WHERE PRODUTO = '1078680';
+
+/*Adicionar chave primária*/
+
+USE sucos;
+
+ALTER TABLE tbproduto ADD PRIMARY KEY (PRODUTO);
