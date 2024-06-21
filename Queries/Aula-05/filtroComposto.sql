@@ -8,3 +8,6 @@ SELECT * FROM tbcliente WHERE (IDADE >= 18 AND IDADE <= 22 AND SEXO = 'M')
  OR (cidade = 'Rio de Janeiro' OR BAIRRO = 'Jardins');
 
 /*Esses comandos podem ser utilizados também para os comandos UPDATE e DELETE*/
+
+
+SELECT * FROM TABELA_DE_VENDEDORES WHERE YEAR(DATA_ADMISSAO) < 2016 AND DE_FERIAS = 1;
